@@ -6,7 +6,6 @@ from datetime import time, datetime, date
 # agregamos algunos elementos de texto
 st.title('Titulo nuevo 2')
 st.write('# Hola **como** estas')
-st.write('## Hola **como** estas')
 st.write('### Hola **como** estas')
 
 # agregamos un slider
@@ -30,7 +29,7 @@ st.write(f'Numero escogido: {num}')
 """)
 
 # creamos una formula matematica usando el lenguaje Latex
-st.latex('\\sqrt{\\frac{x^2}{y^2+1}}')
+st.latex('\\sqrt{\\frac{x^2}{y^2+1+4xy}}')
 
 # creamos un slider doble de tipo time
 hora_evento = st.slider(
