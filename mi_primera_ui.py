@@ -4,9 +4,8 @@ import numpy as np
 from datetime import time, datetime, date
 
 # agregamos algunos elementos de texto
-st.title('Titulo nuevo 2')
-st.write('# Hola **como** estas')
-st.write('### Hola **como** estas')
+st.title('Nuevo titulo para la aplicacion')
+st.write('## Mensaje de bienvenida')
 
 # agregamos un slider
 num = st.slider("Numero 1", 0, 100, step=1)
